@@ -34,8 +34,11 @@ ul {
 }
 
 img {
+  max-width: 400px;  /* limit width to 400px */
+  width: 100%;       /* make it responsive */
+  height: auto;      /* keep aspect ratio */
+  border-radius: 8px;
   display: block;
   margin: 20px auto;
-  max-width: 100%;
-  border-radius: 8px;
 }
+
